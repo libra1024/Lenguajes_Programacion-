@@ -1,0 +1,17 @@
+D:\User\rob\Documents\IC-4A\LP_IV\Calculadora\bin\Debug\net6.0-windows\Calculadora.exe
+D:\User\rob\Documents\IC-4A\LP_IV\Calculadora\bin\Debug\net6.0-windows\Calculadora.deps.json
+D:\User\rob\Documents\IC-4A\LP_IV\Calculadora\bin\Debug\net6.0-windows\Calculadora.runtimeconfig.json
+D:\User\rob\Documents\IC-4A\LP_IV\Calculadora\bin\Debug\net6.0-windows\Calculadora.dll
+D:\User\rob\Documents\IC-4A\LP_IV\Calculadora\bin\Debug\net6.0-windows\Calculadora.pdb
+D:\User\rob\Documents\IC-4A\LP_IV\Calculadora\obj\Debug\net6.0-windows\Calculadora.csproj.AssemblyReference.cache
+D:\User\rob\Documents\IC-4A\LP_IV\Calculadora\obj\Debug\net6.0-windows\Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+D:\User\rob\Documents\IC-4A\LP_IV\Calculadora\obj\Debug\net6.0-windows\Calculadora.AssemblyInfoInputs.cache
+D:\User\rob\Documents\IC-4A\LP_IV\Calculadora\obj\Debug\net6.0-windows\Calculadora.AssemblyInfo.cs
+D:\User\rob\Documents\IC-4A\LP_IV\Calculadora\obj\Debug\net6.0-windows\Calculadora.csproj.CoreCompileInputs.cache
+D:\User\rob\Documents\IC-4A\LP_IV\Calculadora\obj\Debug\net6.0-windows\Calculadora.dll
+D:\User\rob\Documents\IC-4A\LP_IV\Calculadora\obj\Debug\net6.0-windows\refint\Calculadora.dll
+D:\User\rob\Documents\IC-4A\LP_IV\Calculadora\obj\Debug\net6.0-windows\Calculadora.pdb
+D:\User\rob\Documents\IC-4A\LP_IV\Calculadora\obj\Debug\net6.0-windows\Calculadora.genruntimeconfig.cache
+D:\User\rob\Documents\IC-4A\LP_IV\Calculadora\obj\Debug\net6.0-windows\ref\Calculadora.dll
+D:\User\rob\Documents\IC-4A\LP_IV\Calculadora\obj\Debug\net6.0-windows\Calculadora.Form1.resources
+D:\User\rob\Documents\IC-4A\LP_IV\Calculadora\obj\Debug\net6.0-windows\Calculadora.csproj.GenerateResource.cache
