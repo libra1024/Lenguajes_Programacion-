@@ -1,0 +1,54 @@
+#titulo{
+    color: rgb(9, 153, 236);
+}
+p > strong{
+    color: red;
+}
+p > a{
+    color: red;
+}
+p  > a > em{
+    font-weight: bold; 
+    color: blue;
+}
+p > span.especial{
+    color: rgb(158, 27, 158);
+}
+.destacado{
+    color: rgb(255, 187, 0);
+}
+caption{
+    color: blue;
+    font-weight: bolder;
+}
+#subtitulo{
+
+    color: blue;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+
+tr > th.especial,  tbody > tr > td > strong{
+    color: yellow;
+}
+
+tfoot > tr, tr > th{
+    color: red;
+}
+tbody > tr > td{
+    color: rgb(12, 155, 12);
+}
+
+table,  
+thead > tr > th, 
+tfoot > tr > th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tbody >  tr >  th,
+tbody >  tr >  td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}

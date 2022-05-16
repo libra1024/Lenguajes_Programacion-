@@ -1,0 +1,22 @@
+*{
+    font-size: 20px;
+}
+
+p{
+    color: #444;
+}
+
+#contenedor{ 
+    color: #447799; 
+}
+
+em{
+    background: #FFFF00; 
+    padding: .1em; 
+}
+
+em.resaltado{ 
+    background: #FFCC66; 
+    border: 1px solid #FF9955;
+    padding: 5px; 
+}

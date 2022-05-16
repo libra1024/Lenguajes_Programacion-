@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercicio 1: Selectores</title>
+	
+	<style type="text/css">
+
+		/* Ejercicio */
+		/* Agregar los selectores de CSS necesarios para que los estilos de la página queden iguales al resultado (Ejercicio1.png). Cada regla de CSS tiene un comentario explicando a que elementos debe aplicarse la regla.*/
+		
+		/* Todos los elementos de la pagina */
+		body{ 
+			font-size: 20px; 
+		}
+
+		/* Todos los parrafos (<p>) de la página */
+		 * p{ 
+			color: #444; 
+		}
+
+		/* Todos los párrafos que se encuentren dentro del elemento con id "contenedor" */
+		 #contenedor{ 
+			color: #447799; 
+		}
+
+		/* Todos los enlaces la pagina */
+		a{ 
+			color: #CC3311; 
+		}
+
+		/* Los elementos "em" que se encuentren dentro del elemento con id "contenedor" */
+		em{
+			background: #FFFF00; 
+			padding: .1em; 
+		}
+
+		/* Todos los elementos "em" que tengan la clase "resaltado" en toda la página */
+		p > em.resaltado{ 
+			background: #FFCC66; 
+			border: 1px solid #FF9955;
+			padding: 5px; 
+		}
+
+		/* Elementos "span" que se encuentren dentro del elemento con la clase "normal" */
+		span > .normal{ 
+			font-weight: bold; 
+		}
+	</style>
+</head>
+<body>
+	<div id="contenedor">
+
+		<p>
+			Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+			<a href="#">
+				totam rem aperiam
+			</a>
+				, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+				<em>
+					dicta sunt explicabo
+				</em>.
+		</p>
+
+	</div>
+
+	<div class="normal">
+
+		<p>
+			<span>
+				<a href="#">
+					Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+				</a> 
+				sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt
+			</span>. 
+			<a href="#">
+				Neque porro quisquam est
+			</a>
+			, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+			sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+		</p>
+
+		<p>
+			Ut enim ad minima veniam, 
+			<em class="resaltado">
+				quis nostrum exercitationem
+			</em> 
+			ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+		</p>
+
+		<p>
+			Donec facilisis blandit velit. Vestibulum nisi. Proin volutpat, 
+			<em class="resaltado">
+				enim id iaculis congue
+			</em>
+			, orci justo ultrices tortor, 
+			<a href="#">
+				quis lacinia eros libero in eros
+			</a>
+				. Sed malesuada dui vel quam. Integer at eros.
+		</p>
+	</div>
+</body>
+</html>

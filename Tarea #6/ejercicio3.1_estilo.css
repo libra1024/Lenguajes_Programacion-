@@ -1,0 +1,36 @@
+
+tbody >  tr > td.amarillo{
+    color: rgb(221, 221, 21);
+    font-weight: bold; 
+}
+
+tbody >  tr > td.rojo{
+    color: red;
+    font-weight: bold; 
+}
+
+tbody > tr > td.azul{
+    color: blue;
+    font-weight: bold; 
+}
+
+tbody > tr > td.verde{
+    color: rgb(0, 99, 0);
+    font-weight: bold; 
+} 
+
+table,
+tbody >  tr > td.amarillo,
+tbody >  tr > td.rojo,
+tbody >  tr > td.azul,
+tbody >  tr > td.verde{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#fila1, #fila3{
+    background-color: rgb(197, 191, 191);
+}
+#fila2, #fila4{
+    background-color: gray;
+}
