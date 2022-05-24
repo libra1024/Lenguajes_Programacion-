@@ -28,30 +28,16 @@ namespace ControlEscolar
                 Console.Clear();
                 Console.WriteLine("Bienvenido al Sistema de Control Escolar");
                 Console.WriteLine("1.- Administración de Grupos");
-                Console.WriteLine("2.- Administración de Estudiantes");
-                Console.WriteLine("3.- Inscripciones");
-                Console.WriteLine("4.- Salir");
-                Console.Write("Selecciona una opcion: ");
-            } while (!validaMenu(4,ref opcionSeleccionada));
+                Console.WriteLine("2.- Salir");
+                Console.Write("Seleccione una opcion disponible: ");
+            } while (!validaMenu(2,ref opcionSeleccionada));
             switch (opcionSeleccionada)
             {
                 
                 case 1:
                     menuAdminGrupos();
                     break;
-                case 2:
-                    Console.WriteLine("Administración de Grupos");
-                    Console.ReadLine();
-                    menuPrincipal();
-                    break;
-                case 3:
-                    Console.WriteLine("Administración de Grupos");
-                    Console.ReadLine();
-                    menuPrincipal();
-                    break;
-                case 4:
-                    Console.WriteLine("Gracias por utilizar la aplicación");
-                    Console.ReadLine();
+                    case 2:
                     break;
             }
 
@@ -96,6 +82,7 @@ namespace ControlEscolar
                     menuGruposMaterias();
                     break;
                 case 7:
+                    menuPrincipal();
                     break;
             }
         }
